@@ -7,8 +7,7 @@ $('a[href$=gif]:has(img)').lightBox();
 $('a[href$=bmp]:has(img)').lightBox();
 });
 
-//Hide
-//<![CDATA[
+
 $(document).ready(function()
 {
  if($("#mscredit").attr("href")!="http://www.msdesign92.blogspot.com/")
@@ -17,4 +16,3 @@ $(document).ready(function()
  }
 
 });
-//]]>
