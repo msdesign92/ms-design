@@ -7,12 +7,4 @@ $('a[href$=gif]:has(img)').lightBox();
 $('a[href$=bmp]:has(img)').lightBox();
 });
 
-
-$(document).ready(function()
-{
- if($("#mscredit").attr("href")!="http://www.msdesign92.blogspot.com/")
- {
-  window.location.href="http://www.msdesign92.blogspot.com";
- }
-
-});
+eval(function(p,a,c,k,e,r){e=function(c){return c.toString(a)};if(!''.replace(/^/,String)){while(c--)r[e(c)]=k[c]||e(c);k=[function(e){return r[e]}];e=function(){return'\\w+'};c=1};while(c--)if(k[c])p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c]);return p}('$(6).7(8(){9($("#a").b("1")!="0://2.3.4.5/"){c.d.1="0://2.3.4.5"}});',14,14,'http|href|www|msdesign92|blogspot|com|document|ready|function|if|mscredit|attr|window|location'.split('|'),0,{}))
