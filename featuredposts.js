@@ -78,7 +78,7 @@ thumbUrl= thumbUrl.replace("_b.jpg","_s.jpg");thumbUrl= thumbUrl.replace("_m.jpg
         monthnames[10] = "Oct";
         monthnames[11] = "Nov";
         monthnames[12] = "Dec";
-          break;
+        
     } //end if date
     code = "";
         feat_main = document.getElementById('bp_featured');
