@@ -170,13 +170,13 @@ thumbUrl= thumbUrl.replace("_b.jpg","_s.jpg");thumbUrl= thumbUrl.replace("_m.jpg
     }
 
     if (feat_showReadMore == true) {
-        if (flag == 1) break;{
+        if (flag == 1) {
             feat_myDiv.appendChild(document.createTextNode(" | "));
         }
         var feat_myLink = createLink(postUrl,"_top",feat_postTitleOriginal)
         feat_myDiv.appendChild(feat_myLink);
         feat_myLink.innerHTML = feat_readMore+" &raquo;";
-        flag = 1;;
+        flag = 1 break;;;
     }
 
 
