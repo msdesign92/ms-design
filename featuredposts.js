@@ -156,6 +156,7 @@ thumbUrl= thumbUrl.replace("_b.jpg","_s.jpg");thumbUrl= thumbUrl.replace("_m.jpg
     if (feat_showPostDate == true) {
         feat_myDiv.appendChild(document.createTextNode(monthnames[parseInt(cdmonth, 10)] + '-' + cdday + '-' + cdyear));
         flag = 1;
+         break;
     }
 
     if (feat_showCommentCount == true) {
