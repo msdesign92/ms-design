@@ -160,7 +160,7 @@ thumbUrl= thumbUrl.replace("_b.jpg","_s.jpg");thumbUrl= thumbUrl.replace("_m.jpg
 
     if (feat_showCommentCount == true) {
         if (flag == 1) {
-            feat_myDiv.appendChild(document.createTextNode(" | ")<br />);
+            feat_myDiv.appendChild(document.createTextNode(" | "));
         }
         if (commentText == '1 Comments') commentText = '1 Comment';
         if (commentText == '0 Comments') commentText = 'No Comments';
@@ -168,7 +168,7 @@ thumbUrl= thumbUrl.replace("_b.jpg","_s.jpg");thumbUrl= thumbUrl.replace("_m.jpg
         feat_myDiv.appendChild(feat_myLink);
         feat_myLink.innerHTML=commentText;
         flag = 1;;
-    }
+    }document.write("<br/>");
 
     if (feat_showReadMore == true) {
         if (flag == 1) {
