@@ -168,11 +168,12 @@ thumbUrl= thumbUrl.replace("_b.jpg","_s.jpg");thumbUrl= thumbUrl.replace("_m.jpg
         feat_myLink.innerHTML=commentText;
         flag = 1;;
     }
-document.write('<br/>');
+
     if (feat_showReadMore == true) {
         if (flag == 1) {
             feat_myDiv.appendChild(document.createTextNode(" | "));
         }
+        document.write('<br/>');
         var feat_myLink = createLink(postUrl,"_top",feat_postTitleOriginal)
         feat_myDiv.appendChild(feat_myLink);
         feat_myLink.innerHTML = feat_readMore+" &raquo;";
