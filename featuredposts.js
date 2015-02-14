@@ -147,8 +147,6 @@ thumbUrl= thumbUrl.replace("_b.jpg","_s.jpg");thumbUrl= thumbUrl.replace("_m.jpg
     } //end try
     catch (error) {}
     
-    document.write("<div class='authorAvatar'>");
-document.write(" <img expr:src='data:post.authorPhoto.url'\/>");
 
     feat_myDiv =  createDiv("bp_item_meta");
     feat_myDiv.style.clear="both";
@@ -162,7 +160,7 @@ document.write(" <img expr:src='data:post.authorPhoto.url'\/>");
 
     if (feat_showCommentCount == true) {
         if (flag == 1) {
-            feat_myDiv.appendChild(document.createTextNode(" | "));
+            feat_myDiv.appendChild(document.createTextNode(" | ")<br />);
         }
         if (commentText == '1 Comments') commentText = '1 Comment';
         if (commentText == '0 Comments') commentText = 'No Comments';
