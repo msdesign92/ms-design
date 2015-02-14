@@ -1,4 +1,3 @@
-//Recent Poss Script by bloggerplugins.org 
 var feat_postTitleOriginal,  feat_myLink, feat_myDiv, feat_myImage,feat_mySeparator;
 var    feat_main;
 var feat_float_clear=false;
@@ -172,7 +171,7 @@ thumbUrl= thumbUrl.replace("_b.jpg","_s.jpg");thumbUrl= thumbUrl.replace("_m.jpg
 
     if (feat_showReadMore == true) {
         if (flag == 1) {
-            feat_myDiv.appendChild(document.createTextNode(" | "));
+            feat_myDiv.appendChild(document.createTextNode(" <br/> "));
         }
         var feat_myLink = createLink(postUrl,"_top",feat_postTitleOriginal)
         feat_myDiv.appendChild(feat_myLink);
