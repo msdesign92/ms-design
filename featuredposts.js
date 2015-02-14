@@ -78,6 +78,7 @@ thumbUrl= thumbUrl.replace("_b.jpg","_s.jpg");thumbUrl= thumbUrl.replace("_m.jpg
         monthnames[10] = "Oct";
         monthnames[11] = "Nov";
         monthnames[12] = "Dec";
+          break;
     } //end if date
     code = "";
         feat_main = document.getElementById('bp_featured');
@@ -156,7 +157,7 @@ thumbUrl= thumbUrl.replace("_b.jpg","_s.jpg");thumbUrl= thumbUrl.replace("_m.jpg
     if (feat_showPostDate == true) {
         feat_myDiv.appendChild(document.createTextNode(monthnames[parseInt(cdmonth, 10)] + '-' + cdday + '-' + cdyear));
         flag = 1;
-         break;
+       
     }
 
     if (feat_showCommentCount == true) {
