@@ -146,6 +146,9 @@ thumbUrl= thumbUrl.replace("_b.jpg","_s.jpg");thumbUrl= thumbUrl.replace("_m.jpg
         }
     } //end try
     catch (error) {}
+    
+    document.write("<div class='authorAvatar'>");
+document.write(" <img expr:src='data:post.authorPhoto.url'\/>");
 
     feat_myDiv =  createDiv("bp_item_meta");
     feat_myDiv.style.clear="both";
@@ -176,7 +179,7 @@ thumbUrl= thumbUrl.replace("_b.jpg","_s.jpg");thumbUrl= thumbUrl.replace("_m.jpg
         var feat_myLink = createLink(postUrl,"_top",feat_postTitleOriginal)
         feat_myDiv.appendChild(feat_myLink);
         feat_myLink.innerHTML = feat_readMore+" &raquo;";
-        flag = 1 break;;;
+        flag = 1 ;;
     }
 
 
