@@ -149,7 +149,6 @@ thumbUrl= thumbUrl.replace("_b.jpg","_s.jpg");thumbUrl= thumbUrl.replace("_m.jpg
     
 
     feat_myDiv =  createDiv("bp_item_meta");
-    feat_myDiv.style.clear="both";
     feat_myDiv.style.marginBottom="4px";
 
     
