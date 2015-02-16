@@ -75,7 +75,7 @@
 		// "center": new slides will appear in the center
 		animation			: 'sides', // sides || center
 		// if true the slider will automatically slide, and it will only stop if the user clicks on a thumb
-		autoplay			: false,
+		autoplay			: true,
 		// interval for the slideshow
 		slideshow_interval	: 3000,
 		// speed for the sliding animation
