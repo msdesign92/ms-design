@@ -15,7 +15,7 @@ function removeHtmlTag(strx,chop){
 	return strx+'...'; 
 }
 
-	
+function createSummaryAndThumb(pID){
 	var summary = imgtag + '<div>' + removeHtmlTag(div.innerHTML,summ) + '</div>';
 	div.innerHTML = summary;
 }
