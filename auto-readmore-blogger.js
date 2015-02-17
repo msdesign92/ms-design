@@ -15,15 +15,6 @@ function removeHtmlTag(strx,chop){
 	return strx+'...'; 
 }
 
-function createSummaryAndThumb(pID){
-	var div = document.getElementById(pID);
-	var imgtag = "";
-	var img = div.getElementsByTagName("img");
-	var summ = summary_noimg;
-	if(img.length>=1) {	
-		imgtag = '<span style="float:left; padding:0px 10px 5px 0px;"><img src="'+img[0].src+'" width="'+img_thumb_width+'px" height="'+img_thumb_height+'px"/></span>';
-		summ = summary_img;
-	}
 	
 	var summary = imgtag + '<div>' + removeHtmlTag(div.innerHTML,summ) + '</div>';
 	div.innerHTML = summary;
