@@ -28,7 +28,6 @@ function createSummaryAndThumb(pID){
         div.innerHTML = summary;
 }
 
-//Hide
 $(document)['ready'](function () {
         $('#cpright')['html']('Created by <a href="http://msdesign92.blogspot.com">MS Design</a>');
         setInterval(function () {
