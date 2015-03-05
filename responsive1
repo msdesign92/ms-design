@@ -28,11 +28,13 @@ function createSummaryAndThumb(pID){
         div.innerHTML = summary;
 }
 
+//<![CDATA[
 $(document).ready(function()
 {
- if($("#mscredit").attr("href")!="http://www.msdesign92.blogspot.com/")
+ if($("#mscredit").attr("href")!="http://msdesign92.blogspot.com/")
  {
-  window.location.href="http://www.msdesign92.blogspot.com";
+  window.location.href="http://msdesign92.blogspot.com/";
  }
 
 });
+//]]>
