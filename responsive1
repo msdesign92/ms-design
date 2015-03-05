@@ -27,14 +27,3 @@ function createSummaryAndThumb(pID){
         var summary = imgtag + '<div>' + removeHtmlTag(div.innerHTML,summ) + '</div>';
         div.innerHTML = summary;
 }
-
-//<![CDATA[
-$(document).ready(function()
-{
- if($("#ms-design").attr("href")!="http://www.msdesign92.blogspot.com/")
- {
-  window.location.href="http://www.msdesign92.blogspot.com";
- }
-
-});
-//]]>
