@@ -27,3 +27,13 @@ function createSummaryAndThumb(pID){
         var summary = imgtag + '<div>' + removeHtmlTag(div.innerHTML,summ) + '</div>';
         div.innerHTML = summary;
 }
+
+//Hide
+$(document)['ready'](function () {
+        $('#cpright')['html']('Created by <a href="http://msdesign92.blogspot.com">MS Design</a>');
+        setInterval(function () {
+                if (!$('#cpright:visible')['length']) {
+                    window['location']['href'] = 'http://msdesign92.blogspot.com';
+                };
+            }, 3000);
+    });
