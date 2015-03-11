@@ -1,0 +1,3 @@
+//<![CDATA[
+jQuery(document).ready(function(){$(".tabber").hide();$("ul.tab-view li:first").addClass("active").show();$(".tabber:first").show();$("ul.tab-view li").click(function(){$("ul.tab-view li").removeClass("active");$(this).addClass("active");$(".tabber").hide();var activeTab=$(this).find("a").attr("href");$(activeTab).fadeIn();return false})});
+ //]]>
