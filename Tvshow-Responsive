@@ -1,0 +1,18 @@
+// <![CDATA[
+  $(function() {
+    if($("#bigframe").length>0) {
+
+var bigvideo = $("#bigframe").attr("src");
+var videotag = '<iframe src="'+bigvideo+'" id="covervideo" frameborder="0"></iframe>';
+$(videotag).appendTo("#myvideo");
+$("#bigframe").remove();
+    }
+    else {
+$("#myvideo,#post-right").remove();
+    }
+
+  });
+
+
+
+// ]]>
