@@ -1,5 +1,5 @@
 // Recent Post Thumbnail  Blogger
-// By http://www.allbloggertricks.com and http://bloggersviet.blogspot.com
+// By http://msdesign92.blogspot.com/
 
 $(function() {
 	$('div.rp-item img').hide();
