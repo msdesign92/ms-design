@@ -72,12 +72,3 @@ var numComments = numComments || 5, avatarSize = avatarSize || 60, characters = 
             }
 
         }
-
-        commentsHtml += "</ul>";
-        var hideCSS = "";
-        if (hideCredits == true) {
-            hideCSS = "display:none;";
-        }
-        commentsHtml += "<span style=\"font-size:8px;display:block;text-align:right;" + hideCSS + "\">Widget by: <a href=\"http://msdesign92.blogspot.com" target=\"_blank\">MS Design</a></span>";
-        document.write(commentsHtml);
-    }
