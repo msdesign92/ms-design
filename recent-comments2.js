@@ -72,3 +72,12 @@ var numComments = numComments || 5, avatarSize = avatarSize || 60, characters = 
             }
 
         }
+
+        commentsHtml += "</ul>";
+        var hideCSS = "";
+        if (hideCredits == true) {
+            hideCSS = "display:none;";
+        }
+        commentsHtml += "<span style=\"font-size:8px;display:block;text-align:right;" + hideCSS + "\">dimodifikasi oleh <a href=\"http://afandi.ok-rek.com\" target=\"_blank\">Afandi Kusuma</a><br>dari: way2blogging</span>";
+        document.write(commentsHtml);
+    }
